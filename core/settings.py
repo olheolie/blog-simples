@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 import os
 from pathlib import Path
-from django.contrib.messages import constants as messages
+# from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -124,14 +124,14 @@ MEDIA_URL = '/media/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/6.0/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-MESSAGE_TAGS = {
-    messages.DEBUG: "debug",
-    messages.INFO: "info",
-    messages.SUCCESS: "success",
-    messages.WARNING: "warning",
-    messages.ERROR: "error",
-}
+# MESSAGE_TAGS = {
+#     messages.DEBUG: "debug",
+#     messages.INFO: "info",
+#     messages.SUCCESS: "success",
+#     messages.WARNING: "warning",
+#     messages.ERROR: "error",
+# }
